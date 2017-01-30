@@ -149,12 +149,7 @@ then
 echo "Branch master resetting."
 git reset --hard origin/master
 fi
-if [ -x "$(command -v python2)" ]
-then
-virtualenv -p python2 .
-else
 virtualenv .
-fi
 Pokebotupdate
 }
 
